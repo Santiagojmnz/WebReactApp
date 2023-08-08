@@ -43,7 +43,7 @@ const testimonials = [
 function Testimonials() {
   return (
     <section id="testimonials" className="body-font -mt-10">
-      <div className="container px-5 py-10 mx-auto  md:px-10 lg:px-20 xl:px-32"> {/* Ajustamos el padding */}
+      <div className="container px-5 py-10 mx-auto  md:px-10 lg:px-20 xl:px-32"> 
         <div className="flex flex-col w-full -mb-10">
     
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">

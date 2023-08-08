@@ -12,7 +12,10 @@ function Contact() {
   function handleSubmit(e) {
     e.preventDefault();
 
-
+    setEmailError('');
+    setSubjectError('');
+    setMessageError('');
+    setSuccessMessage('');
 
 
     // Validar campos
@@ -56,7 +59,7 @@ function Contact() {
             </label>
             <input
               id="email"
-              className={`shadow-sm bg-gray-50 border ${emailError ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:placeholder-gray-400  dark:text-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
+              className={`shadow-sm bg-gray-50 border ${emailError ? 'border-red-500' : 'border-gray-300'} text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:placeholder-gray-400  dark:text-gray-700 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
               placeholder="ejemplo@dominio.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -69,7 +72,7 @@ function Contact() {
             </label>
             <input
               id="subject"
-              className={`block p-3 w-full text-sm bg-gray-50 rounded-lg border ${subjectError ? 'border-red-500' : 'border-gray-300'} shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
+              className={`block p-3 w-full text-sm bg-gray-50 rounded-lg border ${subjectError ? 'border-red-500' : 'border-gray-300'} shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:placeholder-gray-400 dark:text-gray-700 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
               placeholder="En que te podemos ayudar..."
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
@@ -82,7 +85,7 @@ function Contact() {
             </label>
             <textarea
               rows="6"
-              className={`block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border ${messageError ? 'border-red-500' : 'border-gray-300'} shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
+              className={`block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border ${messageError ? 'border-red-500' : 'border-gray-300'} shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:placeholder-gray-400 dark:text-gray-700 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
               placeholder="Escribe tu mensaje aqui..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}

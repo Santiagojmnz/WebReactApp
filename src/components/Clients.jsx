@@ -26,7 +26,7 @@ const clients = [
 function Clients() {
   return (
     <section id="clients" className="body-font">
-      <div className="container px-5 py-10 mx-auto text-center md:px-10 lg:px-20 xl:px-32"> {/* Ajustamos el padding */}
+      <div className="container px-5 py-10 mx-auto text-center md:px-10 lg:px-20 xl:px-32"> 
         <div className="flex flex-col w-full mb-10">
 
           <h2 className="mb-4 text-4xl   text-center ">Clientes</h2>

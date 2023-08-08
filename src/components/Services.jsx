@@ -28,14 +28,14 @@ const services = [
 function Services() {
   return (
     <section id="services" className="body-font">
-      <div className="container px-5 py-10 mx-auto text-center md:px-10 lg:px-20 xl:px-32"> {/* Ajustamos el padding */}
+      <div className="container px-5 py-10 mx-auto text-center md:px-10 lg:px-20 xl:px-32"> 
         <div className="flex flex-col w-full mb-10">
         <h2 className="mb-4 text-4xl   text-center ">Servicios</h2>
           <p className="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">
           Brindamos soluciones tecnológicas, apoyando a empresas, organizaciones e industrias a incursionar en la nueva economía de la transformación digital, mediante el desarrollo de software, y hardware a la medida.
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 "> {/* Ajustamos las columnas */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 "> 
           {services.map((project) => (
             <div key={project.id} className="max-w-sm rounded overflow-hidden shadow-lg mx-auto">
               <img className="w-full" src={project.image} alt="Sunset in the mountains" />
