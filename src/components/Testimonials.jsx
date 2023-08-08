@@ -4,8 +4,8 @@ import Slider from "./Slider";
 const testimonials = [
   {
     id: 1,
-    name: "Santiago Jimenez",
-    role: "dev",
+    name: "Armando Cervantes",
+    role: "CEO Soriana",
     mensaje:
       "Como aliado en nuestro objetivo de contribuir a la transformación digital del sector, cuyo trabajo en éste y otros retos ha resultado clave en la consecución de nuestros objetivos.",
     src: "/img/testimonials/Imagen1.jpg",
@@ -13,8 +13,8 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "Santiago Jimenez",
-    role: "dev",
+    name: "Alfredo Tadea",
+    role: "CEO Target Media",
     mensaje:
       "Han ayudado al cumplimiento de estos objetivos con el proyecto de tracking de nuestras entregas.",
     src: "/img/testimonials/imagen2.jpg",
@@ -22,8 +22,8 @@ const testimonials = [
   },
   {
     id: 3,
-    name: "Santiago Jimenez",
-    role: "dev",
+    name: "Ximena Ortiz",
+    role: "CEO Sky-Drive",
     mensaje:
       "Son una pieza clave en el desarrollo de sistemas de información para el cálculo de intercambiadores térmicos, evaporadores, etc. que nos ayudan a mejorar la producción.",
     src: "/img/testimonials/imagen3.jpg",
@@ -31,8 +31,8 @@ const testimonials = [
   },
   {
     id: 4,
-    name: "Santiago Jimenez",
-    role: "dev",
+    name: "Brenda Espinoza",
+    role: "CEO Bonafont",
     mensaje:
       "Estamos en un sector con mucha competencia. Consideramos que la tecnología es imprescindible para poder desarrollarnos, ofreciendo mejores servicios a nuestros clientes y facilitando la comunicación con nuestros equipos. ",
     src: "/img/testimonials/imagen4.jpg",

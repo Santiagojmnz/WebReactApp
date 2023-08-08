@@ -18,7 +18,7 @@ const clients = [
   },
   {
     id: 5,
-    src: '/img/Serv/ui-ux.svg',
+    src: '/img/clients/gbm.jpg',
   },
 
 ];
