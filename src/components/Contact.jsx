@@ -83,7 +83,7 @@ function Contact() {
             <textarea
               rows="6"
               className={`block p-2.5 w-full text-sm bg-gray-50 rounded-lg shadow-sm border ${messageError ? 'border-red-500' : 'border-gray-300'} shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:placeholder-gray-400 dark:text-gray-400 dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light`}
-              placeholder="Escribe tu mensaje aqui............."
+              placeholder="Escribe tu mensaje aqui..."
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
